@@ -305,3 +305,71 @@ a {
     stroke-width: 1px;
     stroke: #000;
 }
+
+/* ==================== Brand==================== */
+.brand {
+    margin-top: 130px;
+}
+
+.brand-list {
+    padding: 76px 122px;
+    min-width: 1170px;
+    --height: 201px;
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100.5px;
+    background: var(--Scondery-color-light-green, #e2eddf);
+}
+
+.brand-item {
+    display: flex;
+    align-items: center;
+}
+
+.brand-item:nth-of-type(1) {
+    color: var(--Primary-color-black-green, #143c3c);
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+
+.brand-img-slack {
+    width: 40px;
+    height: 46px;
+    margin-right: 5px;
+}
+.brand-item:nth-of-type(2) {
+    color: var(--Primary-color-black-green, #143c3c);
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.brand-img-agworld {
+    width: 35px;
+    height: 31px;
+    margin-right: 11px;
+}
+.brand-item:nth-of-type(3) {
+    color: #163c35;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.brand-item:nth-of-type(4) {
+    color: var(--Primary-color-black-green, #143c3c);
+    font-family: "Sonsie One", sans-serif;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.brand-img-heroku {
+    width: 29px;
+    height: 30px;
+    margin-right: 14px;
+}
+.brand-item:nth-of-type(5) {
+    color: var(--Primary-color-black-green, #143c3c);
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 1.995px;
+}
