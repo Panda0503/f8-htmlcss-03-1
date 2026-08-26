@@ -969,5 +969,116 @@ a {
     height: 360.639px;
     stroke-width: 1px;
     stroke: #143c3c;
-    /* transform: rotate(1deg); */
+}
+
+/* ==================== Service features ==================== */
+.service-features {
+    margin-top: 140px;
+}
+
+.service-features__heading {
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service-features__heading::after {
+    display: none;
+}
+
+.service-features__title {
+    margin: 20px auto 0;
+    width: 547px;
+    color: var(--text-color-light-gray);
+    text-align: center;
+}
+
+.service-features__title::before {
+    display: none;
+}
+
+/* Bottom */
+.service-features__bottom {
+    margin-top: 44px;
+}
+
+.service-features__list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 45px;
+}
+
+.service-features__item {
+    /* width: 350px; */
+    height: 362px;
+    border-radius: 160px;
+    border: 1.5px solid #cecece;
+    background: #fff;
+}
+
+.service-features__name {
+    color: #152427;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.service-features__desc {
+    color: var(--text-color-light-gray);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71;
+}
+
+/* Item 1: Blog */
+.service-features__item:nth-of-type(1) {
+    margin-top: 59px;
+    text-align: center;
+}
+.service-features__item:nth-of-type(1) .service-features__img {
+    margin-top: 80px;
+    width: 39px;
+    height: 35px;
+}
+.service-features__item:nth-of-type(1) .service-features__name {
+    margin-top: 26px;
+}
+.service-features__item:nth-of-type(1) .service-features__desc {
+    margin: 10px auto;
+    width: 286px;
+}
+
+/* Item 2: Documentation */
+.service-features__item:nth-of-type(2) {
+    text-align: center;
+}
+.service-features__item:nth-of-type(2) .service-features__img {
+    margin-top: 60px;
+    width: 39px;
+    height: 35px;
+}
+.service-features__item:nth-of-type(2) .service-features__name {
+    margin-top: 23px;
+}
+.service-features__item:nth-of-type(2) .service-features__desc {
+    margin: 12px auto;
+    width: 264px;
+}
+
+/* Item 3: Customers */
+.service-features__item:nth-of-type(3) {
+    margin-top: 59px;
+    text-align: center;
+}
+.service-features__item:nth-of-type(3) .service-features__img {
+    margin-top: 43px;
+    width: 49px;
+    height: 49px;
+}
+.service-features__item:nth-of-type(3) .service-features__name {
+    margin-top: 19px;
+}
+.service-features__item:nth-of-type(3) .service-features__desc {
+    margin: 12px auto;
+    width: 264px;
 }
